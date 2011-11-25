@@ -1,0 +1,10 @@
+class ELMCommands:
+	HardReset = 'AT Z'
+	SoftReset = 'AT WS'
+	EnableAdaptiveTiming = 'AT AT1'
+	DisableLineFeed = 'AT L0'
+	EnableLineFeed = 'AT L1'
+	DisableEcho = 'AT E0'
+	DisableHeaders = 'AT H0'
+	DisableSpaces = 'AT S0'
+	GetDeviceInformation = 'AT I'
