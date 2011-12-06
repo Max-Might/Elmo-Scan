@@ -5,7 +5,9 @@ class BluetoothDataSource:
 	def __init__(self, params):
 		self.params = params
 		self.socket = BluetoothSocket(RFCOMM)
-		pass
+	
+	def search(self):
+		return discover_devices(lookup_names = True)
 
 	def open(self):
 		try:
